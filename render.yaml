@@ -1,0 +1,11 @@
+# Blueprint de Render: permite desplegar con "New +" → "Blueprint"
+services:
+  - type: web
+    name: bote
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: DATABASE_URL
+        sync: false # pégala a mano desde Neon

@@ -1,0 +1,4 @@
+node_modules/
+bote.db
+bote.db-*
+.env

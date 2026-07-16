@@ -1,0 +1,17 @@
+{
+  "name": "bote",
+  "version": "1.0.0",
+  "description": "Divide los gastos del viaje sin apps ni cuentas (Render + Neon)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.22.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
